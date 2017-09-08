@@ -7,7 +7,9 @@ if ( x == 2 )
     z = 5;
 else if ( y == 1 ) 
     z = 2;              // Neither statement is executed, both boolean results are false.
-You can also do:
+
+// You can also do:
+
 if ( x == 9 )
     z = 5;
 else if ( y == 9 ) 
