@@ -1,7 +1,7 @@
 public class MySingleton
 {
     private static MySingleton mySingleton;
-    public  int    instanceCount;
+    public  int    instanceCount, accessRequests;
 
     private MySingleton()
     {
@@ -12,11 +12,18 @@ public class MySingleton
     {
         if (mySingleton == null) mySingleton = new MySingleton();
 
+        accessRequests++;
+        
         return mySingleton;
     }
 
     public int getInstanceCount()
     {
         return instanceCount;
+    }
+    
+    public int getRequestCount()
+    {
+        return accessRequestCount;
     }
 }
