@@ -6,11 +6,13 @@ public class Animal
     {
         this.name = name;
     }
+    
     public string whatIsMyName()
     {
         return("I am an Animal named " + name);
     }
 }
+
 public class Dog extends Animal
 {
     public Dog(String name)
