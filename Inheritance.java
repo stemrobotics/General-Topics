@@ -12,6 +12,7 @@ public class Animal
         this.name = name;
     }
 }
+
 public class Dog extends Animal
 {
     public boolean licensed;
