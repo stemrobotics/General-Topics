@@ -8,7 +8,7 @@ class MyClass
     }
 }
 
-{ some other code
+{ some code in some other class.
     MyClass instance1 = new MyClass();
     MyClass instance2 = new MyClass();
 
