@@ -16,7 +16,7 @@ class MyClass2
     }
 }
 
-{ some other code
+{ some code in some other class.
     System.out.println("instance count=" + MyClass2.getTheCount());
 
     MyClass2 instance1 = new MyClass2();
