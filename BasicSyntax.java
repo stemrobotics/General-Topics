@@ -1,21 +1,25 @@
+/* The next line starts a class definition */
+
 public class MyClass()
 {
+    // Class level variable definitions, one a constant.
+    
     int              myClassLevelVariable = 1;
     static final int MY_CLASS_CONSTANT = 1;
 
-    /* Comment */
+    /* Next line starts a method definition */
 
     public void myMethod()
     {
         /*
-         comment.
+         Method local variable definitions.
         */
 
-        int              myMethodLevelVariable;
+        int              myMethodLocalVariable;
         static final int MY_METHOD_CONSTANT = 2;
 
-        // Comment.
+        // Next line is a statement.
 
-        myMethodLevelVariable = myClassLevelVariable + MY_METHOD_CONSTANT;  // Comment.
+        myMethodLocalVariable = myClassLevelVariable + MY_METHOD_CONSTANT;  // Comment.
     }
 }
