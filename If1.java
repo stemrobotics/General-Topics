@@ -9,4 +9,4 @@ if ( x == y )             // The two statements in the block are executed.
     z = x + 3;
 }
 
- if ( x < -1) y = 2;      // x is not greater than -1 (it is zero) so the statement is not executed.
+ if ( x < -1) y = 2;      // x is not less than -1 (it is zero) so the statement is not executed.
