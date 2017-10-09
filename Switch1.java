@@ -12,3 +12,4 @@ switch ( x )
 
     default:
          z = 11;
+}
