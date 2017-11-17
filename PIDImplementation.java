@@ -1,4 +1,4 @@
-public class MyEncoder implements PIDSource
+public class MyClass implements PIDSource
 {
     // fields, constructors and other methods.
     
