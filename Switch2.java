@@ -1,3 +1,5 @@
+String  day = "tuesday"
+    
 switch ( day )
 {
     case "monday":
