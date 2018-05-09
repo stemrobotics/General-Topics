@@ -1,9 +1,9 @@
-public void printout( String s )
+public int square( int value )
 {
-      System.out.println( s );
+      return value * value;
 }
 
-public void printout( int i )
+public double square( double value )
 {
-      System.out.println( i );
+      return value * value;
 }
