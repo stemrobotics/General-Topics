@@ -7,10 +7,7 @@ public double computeArea( int heightInFeet, int widthInFeet, boolean returnMete
 {
       double area = computeArea( heightInFeet, widthInFeet );
 
-      if ( returnMeters ) 
-      {
-          area = area * .3048;
-      }
+      if ( returnMeters ) area = area * .3048;
 
       return area;
 }
