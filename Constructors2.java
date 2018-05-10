@@ -1,9 +1,11 @@
 public class Dog
 {
-      public String breed = "", name = "";
+      public String breed, name;
 
       public Dog()
       {
+            breed = "";
+            name = "";
       }
 
       public Dog(String breed, String dogName)
