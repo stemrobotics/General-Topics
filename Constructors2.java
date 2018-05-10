@@ -1,13 +1,17 @@
 public class Dog
 {
-      public String breed, name;
+      public String breed, name = "";
 
       public Dog()
       {
             breed = "";
-            name = "";
       }
 
+      public Dog(String breed)
+      {
+            this.breed = breed;
+      }
+      
       public Dog(String breed, String dogName)
       {
             this.breed = breed;
