@@ -14,4 +14,4 @@ This prints out:
 
 My    is barking!
 My collie  is barking!
-My collie Lassis is barking!
+My collie Lassie is barking!
