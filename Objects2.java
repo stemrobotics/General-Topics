@@ -13,4 +13,3 @@ This prints out:
 
 The collie Lassie is barking!
 My dog is a collie named Lassie and is 5 years old.
-  
