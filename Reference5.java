@@ -8,6 +8,7 @@ public void myMethod1( StringBuffer sb )
 public void myMethod2( StringBuffer sb )
 {
     sb = new StringBuffer( "123");
+    sb.append("456");
 }
 
 myMethod1( mySB );
