@@ -48,7 +48,8 @@ public class Animals
 {
     public static void main(String []args)
     {
-        Dog myDog = new Dog("rover");
+        Dog myDog = new Dog();
+        myDog.name = "rover";
         myDog.age = 3;
 
         Cat myCat = new Cat("kitty", 3);
