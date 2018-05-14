@@ -6,7 +6,7 @@ myDog = new Dog("collie");
 
 myDog.bark();
 
-Dog myDog = new Dog("collie", "Lassie");
+myDog = new Dog("collie", "Lassie");
 
 myDog.bark();
 
