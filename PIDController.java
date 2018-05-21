@@ -1,4 +1,4 @@
-public class PIDController
+public class MyPIDController
 {
     private PIDSource   source;
     private PIDOutput   output;
