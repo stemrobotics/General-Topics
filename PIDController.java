@@ -11,10 +11,10 @@ public class MyPIDController
     
     // This method could be called from another class or performed in
     // a loop in a thread. It's job is to read the source value from
-    // the source object, for example an encoder's current counts and calculate
-    // an appropriate output value and write that output value to the 
-    // output object, for example a motor to change the motors behavior.
-    // The key is that this code does care what the source and
+    // the source object (for example an encoder's current counts) and 
+    // calculate an output value and write that output value to the 
+    // output object (for example a motor to change the motor's power).
+    // The key is that this code does not care what the source and
     // output objects actually are, it just reads, calculates and writes.
     
     public void calculate()
