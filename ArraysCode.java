@@ -11,7 +11,7 @@ public class HelloWorld
 
         System.out.println("array index 1 contains " + x[1]);  // Prints out 10.
 
-        int y1 = x[0] + x[1] * x[2];       // y will contain 155. Why?
+        int y1 = x[0] + x[1] * x[2];       // y1 will contain 155. Why?
         
         System.out.println("y1 = " + y1);
         
