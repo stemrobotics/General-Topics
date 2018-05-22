@@ -22,6 +22,7 @@ public class HelloWorld
         
         myStr3 = myMethod3(myStr);
         
+        // \n in a println string moves to a new line.
         System.out.println("\nmyStr=" + myStr);
         System.out.println("myStr3=" + myStr3);
      }
@@ -42,6 +43,7 @@ public class HelloWorld
     public static void myMethod2( StringBuffer sb )
     {
         sb = new StringBuffer( "123");
+        sb.append("456");
         System.out.println("\n  sb=" + sb);
 
     }
