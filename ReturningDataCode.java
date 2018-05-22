@@ -4,7 +4,7 @@ public class HelloWorld
     {
         int z;
         
-        z = myMethod();
+        z = myMethod();     // Integer returned from method stored in z.
         
         System.out.println("z=" + z);
         
@@ -26,7 +26,7 @@ public class HelloWorld
     {
         int x = 2;
     
-        return x;
+        return x;           // variable x only exists inside the method.
     }
     
     static String myMethod2()
