@@ -2,7 +2,7 @@ java.util.ArrayList <String>al = new java.util.ArrayList<String>();
 
 al.add("A String object");                  // Add an element to the ArrayList.
 al.add("A second String object");
-al.set(1, "A different String object");     // Change the element at index zero.
+al.set(1, "A different String object");     // Change the element at index one.
 
 al.remove(0);                               // Remove the element at index zero.
 
