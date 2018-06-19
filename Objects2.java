@@ -1,10 +1,10 @@
 Dog myDog = new Dog();            // myDog isn't a primitive, its a referemce
-                                  // to an instance of class Dog.
-myDog.breed = "collie";
+                                  // to the new instance of class Dog.
+myDog.breed = "collie";           // Here we set the instances fields via direct access.
 myDog.name = "Lassie";
 myDog.age = 5;
 
-myDog.bark();
+myDog.bark();                     // Execute the method bark.
 
 System.out.println("My dog is a " + myDog.breed + " named " + myDog.name +
                    " and is " + myDog.age + " years old.");
