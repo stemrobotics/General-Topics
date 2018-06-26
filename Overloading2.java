@@ -1,11 +1,11 @@
-public double computeArea( double heightInFeet, double widthInFeet )
+public double computeArea( double lengthInFeet, double widthInFeet )
 {
-    return heightInFeet * widthInFeet;
+    return lengthInFeet * widthInFeet;
 }
 
-public double computeArea( double heightInFeet, double widthInFeet, boolean returnMeters )
+public double computeArea( double lengthInFeet, double widthInFeet, boolean returnMeters )
 {
-    double area = computeArea( heightInFeet, widthInFeet );
+    double area = computeArea( lengthInFeet, widthInFeet );
 
     if ( returnMeters ) area = area * .3048;
 
