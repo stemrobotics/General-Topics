@@ -7,14 +7,14 @@ public class HelloWorld
         System.out.println("area(m)=" + computeArea(10, 10, true));
      }
 
-    public static double computeArea( int heightInFeet, int widthInFeet )
+    public static double computeArea( int lengthInFeet, int widthInFeet )
     {
-          return heightInFeet * widthInFeet;
+          return lengthInFeet * widthInFeet;
     }
     
-    public static double computeArea( int heightInFeet, int widthInFeet, boolean returnMeters )
+    public static double computeArea( int lengthInFeet, int widthInFeet, boolean returnMeters )
     {
-          double area = computeArea( heightInFeet, widthInFeet );
+          double area = computeArea( lengthInFeet, widthInFeet );
     
           if ( returnMeters ) 
           {
