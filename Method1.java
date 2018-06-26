@@ -9,7 +9,14 @@ public class HelloWorld
      public static void myMethod()
      {
          int x = 3;
-         x = x * 5;
-         System.out.println("Hello World! " + x);
-     }    
+          
+         x = myMethod2(x);
+         
+          System.out.println("Hello World! " + x);
+     }
+     
+     public static int myMethod2(int number)
+     {
+          return number * 5;
+     }
 }
