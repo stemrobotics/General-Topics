@@ -1,4 +1,4 @@
-int computeArea( int height, int width )
+int computeArea( int lenght, int width )
 {
-      return height * width;
+      return lenght * width;
 }
