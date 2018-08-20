@@ -1,4 +1,5 @@
 String  day = "tuesday"
+int     dayNumber;
     
 switch ( day )
 {
