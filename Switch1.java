@@ -13,5 +13,5 @@ switch ( x )
          z = 9;
 
     default:
-         z = 11;    // No case(s) matched.
+         z = 11;    // No case matched.
 }
