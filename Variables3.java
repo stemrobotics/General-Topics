@@ -1,6 +1,6 @@
 public class ConstantExample
 {
-    int INCHES_IN_FOOT = 12;
+    final int INCHES_IN_FOOT = 12;
 
     public double calculateInches (double lengthInFeet)
     {
