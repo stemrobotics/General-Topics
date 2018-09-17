@@ -4,8 +4,8 @@ public class MyClass()
 {
     // Class level variable definitions, one a constant.
     
-    int              myClassLevelVariable = 1;
-    static final int MY_CLASS_CONSTANT = 1;
+    int       myClassLevelVariable = 1;
+    final int MY_CLASS_CONSTANT = 1;
 
     /* Next line starts a method definition */
 
@@ -15,8 +15,8 @@ public class MyClass()
          Method local variable definitions.
         */
 
-        int              myMethodLocalVariable;
-        static final int MY_METHOD_CONSTANT = 2;
+        int       myMethodLocalVariable;
+        final int MY_METHOD_CONSTANT = 2;
 
         // Next line is a statement.
 
