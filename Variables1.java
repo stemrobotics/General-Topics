@@ -20,6 +20,8 @@ public class MyClass
         }
 
         myVar3 = 7;   // fails. myVar3 only visible in the if statement code block.
+        
+        myVar4 = 17;  // fails. myVar4 is final and already assigned a value.
     }
 
     public void myMethod2()
