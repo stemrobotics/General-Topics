@@ -12,6 +12,6 @@ myDog.bark();
 
 This prints out:
 
-My    is barking!
+My  is barking!
 My collie  is barking!
 My collie Lassie is barking!
