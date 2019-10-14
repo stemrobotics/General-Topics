@@ -1,5 +1,5 @@
-Dog myDog = new Dog();            // myDog isn't a primitive, its a referemce
-                                  // to the new instance of class Dog.
+Dog myDog = new Dog();            // myDog isn't a primitive variable, its a reference
+                                  // variable pointing to the new instance of class Dog.
 myDog.breed = "collie";           // Here we set the instance fields via direct access.
 myDog.name = "Lassie";
 myDog.age = 5;
