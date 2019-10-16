@@ -2,7 +2,7 @@ String myString = new String("hello");    // Sets myString to point to a new Str
                                           // contains "hello".
 
 String myString1 = "goodbye";             // Special case of String that does the same as the new keyword.
-                                          // This only works for Strings.
+                                          // This only works for Strings and the Number classes (Unit 12).
                                           // Now we have two instances of the object String, one containing
                                           // "hello" and one containing "goodbye".
 
